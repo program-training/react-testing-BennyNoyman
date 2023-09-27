@@ -9,7 +9,7 @@ export function MetaData(data: Props) {
             <h3>width:{data.data.width}</h3>
             <h3>height:{data.data.height}</h3>
             <h3>url:{data.data.url}</h3>
-            <h3>{data.data.date}</h3>
+            <h3 data-testid="date">{data.data.date}</h3>
         </>
     )
 }
