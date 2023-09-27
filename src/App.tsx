@@ -1,10 +1,10 @@
 import "./App.css";
-import { Example } from "./components/Example/Example";
+import {Url} from "./components/URL/URL.tsx";
 
 function App() {
   return (
     <>
-      <Example />{" "}
+        <Url/>
     </>
   );
 }
